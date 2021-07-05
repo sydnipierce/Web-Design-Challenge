@@ -1,10 +1,14 @@
 import pandas as pd
 import os
 
+# Establish path to CSV
 file_path = os.path.join("cities_convert.csv")
 
-df = pd.DataFrame(file_path)
+# Convert CSV to Pandas df
+df = pd.read_csv(file_path)
 
-output_path = os.path.join("..", "assets", )
+# Establish path to HTML output file
+output_path = os.path.join("..", "assets", "cities.html")
 
-df.to_html()
+# Convert df to HTML file
+df.to_html(output_path)
