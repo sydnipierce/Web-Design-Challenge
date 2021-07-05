@@ -40,6 +40,10 @@ h2 {
     display: none;
 }
 
+.img-thumbnail {
+    border: 3px solid teal;
+}
+
 @media (max-width: 991px) {
     .bg-light {
         background-color: teal !important;
