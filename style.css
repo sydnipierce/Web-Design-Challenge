@@ -23,14 +23,32 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    font-family: Arial;
+    color: teal;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .float {
     float: left;
     width: 50%;
 }
 
+.sm-sc-divider {
+    display: none;
+}
+
 @media (max-width: 991px) {
     .bg-light {
         background-color: teal !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .sm-sc-divider {
+        display: block;
     }
 }
 
