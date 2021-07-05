@@ -7,6 +7,27 @@
     padding: 20px;
 }
 
+.container {
+    margin-top: 50px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    overflow-wrap: normal;
+}
+
+h1 {
+    font-family: Courier New;
+    color: teal;
+    font-size: 30px;
+}
+
+.float {
+    float: left;
+    width: 50%;
+}
+
 @media (max-width: 991px) {
     .bg-light {
         background-color: teal !important;
@@ -15,6 +36,6 @@
 
 @media (min-width: 992px) {
     body {
-        background-color: gray !important;
+        background-color: lightgray !important;
     }
 }
