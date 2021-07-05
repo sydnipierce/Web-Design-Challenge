@@ -4,7 +4,7 @@ Homework 11
 This repository contains the HTML files for a GitHub page that visualizes the results of the python-api-challenge repo analysis. The GitHub page contains 7 pages:
 
 * Home Page: Gives an overview of the analysis and includes a sidebar with chart previews which link to individual analysis pages.
-* Plot Pages (4): Discussed the four main analyses comparing latitutde to the weather variables temperature, humidity, cloudiness, and wind speed.
+* Plot Pages (4): Includes one detailed page for each of four main analyses comparing latitutde to the weather variables temperature, humidity, cloudiness, and wind speed.
 * Comparison: Displays all 4 plot charts on one page for easy comparison.
 * Data: Includes the full data table used in the analyses.
 
